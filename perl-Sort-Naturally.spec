@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Sort
 %define		pnam	Naturally
@@ -6,7 +10,8 @@ Summary(pl):	Modu³ Perla Sort::Naturally - sortuj±cy leksykalnie, ale liczby num
 Name:		perl-Sort-Naturally
 Version:	1.01
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2a32b8d1c1760dd828046805cba23af7
@@ -34,6 +39,8 @@ leksykalnie.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests: %{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
