@@ -9,7 +9,7 @@ Summary:	Sort::Naturally Perl module - sort lexically, but sort numeral parts nu
 Summary(pl):	Modu³ Perla Sort::Naturally - sortuj±cy leksykalnie, ale liczby numerycznie
 Name:		perl-Sort-Naturally
 Version:	1.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
