@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Sort
-%define	pnam	Naturally
+%define		pdir	Sort
+%define		pnam	Naturally
 Summary:	Sort::Naturally Perl module - sort lexically, but sort numeral parts numerically
 Summary(pl):	Modu³ Perla Sort::Naturally - sortuj±cy leksykalnie, ale liczby numerycznie
 Name:		perl-Sort-Naturally
