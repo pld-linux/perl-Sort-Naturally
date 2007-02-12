@@ -6,7 +6,7 @@
 %define		pdir	Sort
 %define		pnam	Naturally
 Summary:	Sort::Naturally Perl module - sort lexically, but sort numeral parts numerically
-Summary(pl):	Modu³ Perla Sort::Naturally - sortuj±cy leksykalnie, ale liczby numerycznie
+Summary(pl.UTF-8):   ModuÅ‚ Perla Sort::Naturally - sortujÄ…cy leksykalnie, ale liczby numerycznie
 Name:		perl-Sort-Naturally
 Version:	1.02
 Release:	1
@@ -26,10 +26,10 @@ used in implementing my idea of a "natural sorting" algorithm. Under
 natural sorting, numeric substrings are compared numerically, and
 other word-characters are compared lexically.
 
-%description -l pl
-Modu³ Sort::Naturally ma wyeksportowane dwie funkcje: nsort i ncmp. S±
-one implementacj± algorytmu "naturalnego sortowania". W algorytmie tym
-podci±gi numeryczne s± sortowane numerycznie, a pozosta³e znaki -
+%description -l pl.UTF-8
+ModuÅ‚ Sort::Naturally ma wyeksportowane dwie funkcje: nsort i ncmp. SÄ…
+one implementacjÄ… algorytmu "naturalnego sortowania". W algorytmie tym
+podciÄ…gi numeryczne sÄ… sortowane numerycznie, a pozostaÅ‚e znaki -
 leksykalnie.
 
 %prep
