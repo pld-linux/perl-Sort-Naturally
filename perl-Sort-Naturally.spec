@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Sort
 %define		pnam	Naturally
+%include	/usr/lib/rpm/macros.perl
 Summary:	Sort::Naturally Perl module - sort lexically, but sort numeral parts numerically
 Summary(pl.UTF-8):	Moduł Perla Sort::Naturally - sortujący leksykalnie, ale liczby numerycznie
 Name:		perl-Sort-Naturally
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a173f3f8f519ebae6e5e578e843f6e1c
+URL:		http://search.cpan.org/dist/Sort-Naturally/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
