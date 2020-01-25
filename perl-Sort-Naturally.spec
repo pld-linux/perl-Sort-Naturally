@@ -4,7 +4,6 @@
 
 %define		pdir	Sort
 %define		pnam	Naturally
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sort::Naturally Perl module - sort lexically, but sort numeral parts numerically
 Summary(pl.UTF-8):	Moduł Perla Sort::Naturally - sortujący leksykalnie, ale liczby numerycznie
 Name:		perl-Sort-Naturally
